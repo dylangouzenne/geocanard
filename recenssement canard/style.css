@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	background-image:url(images/image3.jpg);
+	/*background-image min-width: 100%;
+	background-image min-height: 100%;*/
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+#formulaire{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin: 1.5em 1.5em 1.5em 1.5em;
+	border-radius:1.5em;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#imgform{
+	border-radius:50%;
+	overflow:hidden;
+	
+}
