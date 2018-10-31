@@ -12,7 +12,7 @@
 		<?php
 		
 		//Connection avec la BDD.
-		$bdd = new PDO('mysql:host=localhost;dbname=geocanard;charset=utf8', 'dylan','Fmdph320', $pdo_options);
+		$bdd = new PDO('mysql:host=localhost;dbname=geocanard;charset=utf8', 'simplon', 'Simplon-123', $pdo_options);
 
 		// selectionner toutes les valeurs de la table Articles 
 
